@@ -1,0 +1,7 @@
+{
+  "getData": {
+    "validation": {
+      "type": "required"
+    }
+  }
+}

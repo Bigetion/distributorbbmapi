@@ -1,0 +1,19 @@
+{
+  "submitAdd": {
+    "validation": {
+      "roleName": "required",
+      "description": "required"
+    }
+  },
+  "submitEdit": {
+    "validation": {
+      "roleName": "required",
+      "description": "required"
+    }
+  },
+  "submitDelete": {
+    "validation": {
+      "idRole": "required"
+    }
+  }
+}

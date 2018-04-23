@@ -1,0 +1,7 @@
+{
+  "setFeaturedImage": {
+    "validation": {
+      "thumbnail": "required"
+    }
+  }
+}

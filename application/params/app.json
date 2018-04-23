@@ -1,0 +1,8 @@
+{
+  "changePassword": {
+    "validation": {
+      "passwordOld": "required",
+      "passwordNew": "required"
+    }
+  }
+}

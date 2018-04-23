@@ -1,0 +1,19 @@
+{
+  "submitAdd": {
+    "validation": {
+      "userName": "required",
+      "idRole": "required"
+    }
+  },
+  "submitEdit": {
+    "validation": {
+      "userName": "required",
+      "idRole": "required"
+    }
+  },
+  "submitDelete": {
+    "validation": {
+      "idUser": "required"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Pengguna",
+  "primary_key": "id_user",
+  "columns": [{
+    "text": "Nama User",
+    "value": "username",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Level",
+    "value": "role_name",
+    "sortable": true,
+    "align": "left"
+  }],
+  "query": {
+    "table": "users",
+    "join": {
+      "[>]roles" : "id_role"
+    },
+    "column": [
+      "users.id_user",
+      "users.id_role",
+      "users.id_external",
+      "users.username",
+      "roles.role_name"
+    ],
+    "where": {
+      "users.id_role[!]": "2"
+    }
+  }
+}

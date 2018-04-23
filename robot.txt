@@ -1,0 +1,4 @@
+User-agent : *
+Dissallow: application/
+Dissallow: project/
+Dissallow: system/

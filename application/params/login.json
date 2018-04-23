@@ -1,0 +1,8 @@
+{
+  "index": {
+    "validation": {
+      "username": "required",
+      "password": "required"
+    }
+  }
+}

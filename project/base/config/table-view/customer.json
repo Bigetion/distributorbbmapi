@@ -1,0 +1,47 @@
+{
+  "title": "Customer",
+  "primary_key": "id",
+  "columns": [{
+    "text": "Nama Customer",
+    "value": "nama",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Alamat",
+    "value": "alamat",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "No. Telp / HP",
+    "value": "telepon",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Nomor Rekening",
+    "value": "nomor_rekening",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Bank",
+    "value": "bank",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Keterangan",
+    "value": "keterangan",
+    "sortable": true,
+    "align": "left"
+  }],
+  "query": {
+    "table": "customer",
+    "column": [
+      "customer.id",
+      "customer.nama",
+      "customer.alamat",
+      "customer.telepon",
+      "customer.nomor_rekening",
+      "customer.bank",
+      "customer.keterangan"
+    ]
+  }
+}

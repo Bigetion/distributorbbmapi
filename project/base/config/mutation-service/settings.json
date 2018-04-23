@@ -1,0 +1,16 @@
+{
+  "table": "settings",
+  "roles": {
+    "insert": [1,3],
+    "update": [1,3],
+    "delete": [1,3]
+  },
+  "primary_key": "id",
+  "fields": [{
+    "id": "id",
+    "validation": ""
+  },{
+    "id": "value",
+    "validation": ""
+  }]
+}

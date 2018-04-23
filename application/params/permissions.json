@@ -1,0 +1,7 @@
+{
+  "updatePermissions": {
+    "validation": {
+      "permissions": "required"
+    }
+  }
+}
