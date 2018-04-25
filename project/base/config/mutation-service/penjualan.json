@@ -1,0 +1,37 @@
+{
+  "table": "penjualan",
+  "roles": {
+    "insert": [1,3,4],
+    "update": [1,3,4],
+    "delete": [1,3,4]
+  },
+  "primary_key": "id",
+  "fields": [{
+    "id": "tanggal_penjualan",
+    "validation": ""
+  },{
+    "id": "qty",
+    "validation": ""
+  },{
+    "id": "harga",
+    "validation": ""
+  },{
+    "id": "jumlah_bayar",
+    "validation": ""
+  },{
+    "id": "top",
+    "validation": ""
+  },{
+    "id": "jatuh_tempo",
+    "validation": ""
+  },{
+    "id": "status_bayar",
+    "validation": ""
+  },{
+    "id": "jenis_bayar",
+    "validation": ""
+  },{
+    "id": "approved",
+    "validation": ""
+  }]
+}

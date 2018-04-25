@@ -1,0 +1,82 @@
+{
+  "title": "Penjualan",
+  "primary_key": "id",
+  "columns": [{
+    "text": "Tanggal",
+    "value": "tanggal_penjualan",
+    "sortable": true,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "QTY",
+    "value": "qty",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Harga Perliter",
+    "value": "harga",
+    "sortable": true,
+    "align": "left",
+    "type": "currency"
+  },{
+    "text": "Jumlah Pembayaran",
+    "value": "jumlah_bayar",
+    "sortable": true,
+    "align": "left",
+    "type": "currency"
+  },{
+    "text": "TOP",
+    "value": "top",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Tanggal Jatuh Tempo",
+    "value": "jatuh_tempo",
+    "sortable": true,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "Status Bayar",
+    "value": "status_bayar",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Jenis Pembayaran",
+    "value": "jenis_bayar",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Approve Owner",
+    "value": "approved",
+    "sortable": true,
+    "align": "left",
+    "type": "enum",
+    "options": {
+      "data": {
+        "1": "OK",
+        "0": "Not OK"
+      }
+    }
+  }],
+  "query": {
+    "table": "penjualan",
+    "column": [
+      "penjualan.id",
+      "penjualan.tanggal_penjualan",
+      "penjualan.qty",
+      "penjualan.harga",
+      "penjualan.jumlah_bayar",
+      "penjualan.jenis_bayar",
+      "penjualan.status_bayar",
+      "penjualan.top",
+      "penjualan.jatuh_tempo",
+      "penjualan.approved"
+    ]
+  }
+}
