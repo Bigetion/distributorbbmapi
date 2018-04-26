@@ -2,6 +2,11 @@
   "title": "Penjualan",
   "primary_key": "id",
   "columns": [{
+    "text": "Customer",
+    "value": "nama",
+    "sortable": true,
+    "align": "left"
+  },{
     "text": "Tanggal",
     "value": "tanggal_penjualan",
     "sortable": true,
@@ -66,8 +71,15 @@
   }],
   "query": {
     "table": "penjualan",
+    "join": {
+      "[>]customer" : {
+        "customer" : "id"
+      }
+    },
     "column": [
       "penjualan.id",
+      "customer.nama",
+      "penjualan.customer",
       "penjualan.tanggal_penjualan",
       "penjualan.qty",
       "penjualan.harga",

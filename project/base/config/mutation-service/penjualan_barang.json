@@ -1,0 +1,28 @@
+{
+  "table": "penjualan_barang",
+  "roles": {
+    "insert": [1,3,4],
+    "update": [1,3,4],
+    "delete": [1,3,4]
+  },
+  "primary_key": "id",
+  "fields": [{
+    "id": "id_penjualan",
+    "validation": ""
+  },{
+    "id": "qty",
+    "validation": ""
+  },{
+    "id": "nama_barang",
+    "validation": ""
+  },{
+    "id": "sg",
+    "validation": ""
+  },{
+    "id": "temperatur",
+    "validation": ""
+  },{
+    "id": "tinggi_cairan",
+    "validation": ""
+  }]
+}

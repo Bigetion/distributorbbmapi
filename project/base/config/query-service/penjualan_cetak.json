@@ -1,0 +1,12 @@
+{
+  "query": [{
+    "table": "penjualan_detail",
+    "column": "*"
+  },{
+    "table": "penjualan_barang",
+    "column": "*"
+  },{
+    "table": "settings",
+    "column": ["id","value"]
+  }]
+}

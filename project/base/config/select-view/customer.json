@@ -1,0 +1,9 @@
+{
+  "track_by": "id",
+  "label": "nama",
+  "value": "id",
+  "query": {
+    "table": "customer",
+    "column": ["customer.id", "customer.nama"]
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "table": "penjualan",
+  "table": "penjualan_detail",
   "roles": {
     "insert": [1,3,4],
     "update": [1,3,4],
@@ -7,34 +7,37 @@
   },
   "primary_key": "id",
   "fields": [{
-    "id": "customer",
+    "id": "id_penjualan",
     "validation": ""
   },{
-    "id": "tanggal_penjualan",
+    "id": "nomor_surat_jalan",
     "validation": ""
   },{
-    "id": "qty",
+    "id": "tanggal",
     "validation": ""
   },{
-    "id": "harga",
+    "id": "contact",
     "validation": ""
   },{
-    "id": "jumlah_bayar",
+    "id": "mengetahui",
     "validation": ""
   },{
-    "id": "top",
+    "id": "driver",
     "validation": ""
   },{
-    "id": "jatuh_tempo",
+    "id": "nomor_kendaraan",
     "validation": ""
   },{
-    "id": "status_bayar",
+    "id": "nomor_segel_atas",
     "validation": ""
   },{
-    "id": "jenis_bayar",
+    "id": "nomor_segel_bawah",
     "validation": ""
   },{
-    "id": "approved",
+    "id": "nama_transportir",
+    "validation": ""
+  },{
+    "id": "warna_segel",
     "validation": ""
   }]
 }
