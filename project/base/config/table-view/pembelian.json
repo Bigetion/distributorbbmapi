@@ -1,0 +1,81 @@
+{
+  "title": "Pembelian",
+  "primary_key": "id",
+  "columns": [{
+    "text": "Nomor PO",
+    "value": "nomor_po",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Tanggal",
+    "value": "tanggal_pembelian",
+    "sortable": true,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "QTY",
+    "value": "qty",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Harga Perliter",
+    "value": "harga",
+    "sortable": true,
+    "align": "left",
+    "type": "currency"
+  },{
+    "text": "Jenis Pembayaran",
+    "value": "jenis_bayar",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "TOP",
+    "value": "top",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Tanggal Jatuh Tempo",
+    "value": "jatuh_tempo",
+    "sortable": true,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "Status Bayar",
+    "value": "status_bayar",
+    "sortable": true,
+    "align": "left"
+  },{
+    "text": "Approve Owner",
+    "value": "approved",
+    "sortable": true,
+    "align": "left",
+    "type": "enum",
+    "options": {
+      "data": {
+        "1": "OK",
+        "0": "Not OK"
+      }
+    }
+  }],
+  "query": {
+    "table": "pembelian",
+    "column": [
+      "pembelian.id",
+      "pembelian.nomor_po",
+      "pembelian.tanggal_pembelian",
+      "pembelian.qty",
+      "pembelian.harga",
+      "pembelian.jenis_bayar",
+      "pembelian.top",
+      "pembelian.jatuh_tempo",
+      "pembelian.status_bayar",
+      "pembelian.approved"
+    ]
+  }
+}
