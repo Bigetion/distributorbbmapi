@@ -1,0 +1,68 @@
+{
+  "title": "Gudang",
+  "primary_key": "id",
+  "columns": [{
+    "text": "Tanggal",
+    "value": "tanggal",
+    "sortable": false,
+    "align": "left",
+    "type": "date",
+    "options": {
+      "format": "DD MMMM YYYY"
+    }
+  },{
+    "text": "Tipe",
+    "value": "tipe",
+    "sortable": false,
+    "align": "left",
+    "type": "enum",
+    "options": {
+      "data": {
+        "in": "Masuk",
+        "out": "Keluar"
+      }
+    }
+  },{
+    "text": "Jumlah",
+    "value": "qty",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Nomor Referensi",
+    "value": "nomor_referensi",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Pengguna",
+    "value": "username",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Keterangan",
+    "value": "keterangan",
+    "sortable": false,
+    "align": "left"
+  },{
+    "text": "Stok Opname",
+    "value": "stok_opname",
+    "sortable": false,
+    "align": "right"
+  }],
+  "query": {
+    "table": "inventory",
+    "join": {
+      "[>]users" : "id_user"
+    },
+    "column": [
+      "inventory.id",
+      "inventory.id_user",
+      "inventory.tanggal",
+      "inventory.tipe",
+      "inventory.qty",
+      "inventory.nomor_referensi",
+      "inventory.keterangan",
+      "inventory.stok_opname",
+      "users.username"
+    ]
+  }
+}

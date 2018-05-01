@@ -1,6 +1,0 @@
-{
-  "query": [{
-    "table": "settings",
-    "column": ["id","value"]
-  }]
-}

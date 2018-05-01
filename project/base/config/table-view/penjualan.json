@@ -2,6 +2,11 @@
   "title": "Penjualan",
   "primary_key": "id",
   "columns": [{
+    "text": "Nomor DO",
+    "value": "nomor_do",
+    "sortable": true,
+    "align": "left"
+  },{
     "text": "Customer",
     "value": "nama",
     "sortable": true,
@@ -78,6 +83,7 @@
     },
     "column": [
       "penjualan.id",
+      "penjualan.nomor_do",
       "customer.nama",
       "penjualan.customer",
       "penjualan.tanggal_penjualan",

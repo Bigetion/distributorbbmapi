@@ -1,0 +1,6 @@
+{
+  "query": [
+    "SELECT nomor_do FROM penjualan GROUP BY nomor_do LIMIT 0,10",
+    "SELECT nomor_po FROM pembelian GROUP BY nomor_po LIMIT 0,10"
+  ]
+}

@@ -9,6 +9,7 @@ class upload extends Controller {
 			foreach ($images as $image) {
 				$path = 'application/images';
 				if(isset($image['path'])) $path = 'application/images/'.$image['path'];
+				$this->dir->create_dir($path);
 				$name = $image['name'];
 				$data = $image['base64'];
 

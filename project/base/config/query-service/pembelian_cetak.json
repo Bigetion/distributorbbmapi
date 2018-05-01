@@ -1,0 +1,12 @@
+{
+  "query": [{
+    "table": "pembelian_detail",
+    "column": "*"
+  },{
+    "table": "pembelian_barang",
+    "column": "*"
+  },{
+    "table": "settings",
+    "column": ["id","value"]
+  }]
+}

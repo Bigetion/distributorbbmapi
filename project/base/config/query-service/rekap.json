@@ -1,0 +1,12 @@
+{
+  "query": [
+    {
+      "table": "pembelian",
+      "column": "*"
+    },
+    {
+      "table": "penjualan",
+      "column": "*"
+    }
+  ]
+}

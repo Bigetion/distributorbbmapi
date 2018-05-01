@@ -1,13 +1,13 @@
 {
-  "table": "penjualan_barang",
+  "table": "pembelian_barang",
   "roles": {
     "insert": [1,3,4],
     "update": [1,3,4],
     "delete": [1,3,4]
   },
-  "primary_key": "id_penjualan",
+  "primary_key": "id_pembelian",
   "fields": [{
-    "id": "id_penjualan",
+    "id": "id_pembelian",
     "validation": ""
   },{
     "id": "qty",
@@ -16,13 +16,10 @@
     "id": "nama_barang",
     "validation": ""
   },{
-    "id": "sg",
+    "id": "harga",
     "validation": ""
   },{
-    "id": "temperatur",
-    "validation": ""
-  },{
-    "id": "tinggi_cairan",
+    "id": "total",
     "validation": ""
   }]
 }
